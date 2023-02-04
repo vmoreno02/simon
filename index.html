@@ -8,22 +8,40 @@
 
         </head>
 
-        <body>
-            <header>
-                <h1>Simon<sup>&reg;</sup></h1>
+    <body>
+        <header>
+            <h1>Simon<sup>&reg;</sup></h1>
 
-                <nav>
-                    <menu>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="scores.html">Scores</a></li>
-                        <li><a href="play.html">Play</a></li>
-                    </menu>
-                </nav>
+            <nav>
+                <menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="scores.html">Scores</a></li>
+                    <li><a href="play.html">Play</a></li>
+                </menu>
+            </nav>
 
-                <!-- line to divide menu from operation -->
-                <hr />
-            </header>
-        </body>
-    </head>
+            <!-- line to divide menu from operation -->
+            <hr />
+        </header>
+
+        <main>
+            <h2>Welcome!</h2>
+            <p>Please log in to play.</p>
+
+            <!--form: the box and process to get a login-->
+            <form method="get" action="play.html">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+                <button type="submit">Log in</button>
+            </form>
+
+            <hr />
+        </main>
+
+        <footer>
+            <p class="text-reset">Author Name:</span>
+            <a href="https://github.com/vmoreno02/simon">Victoria Moreno</a>
+        </footer>
+    </body>
 </html>
